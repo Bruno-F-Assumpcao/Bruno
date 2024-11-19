@@ -74,7 +74,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #0d6efd;
-  --bs-link-hover-color: #974a2d;
+  --bs-link-hover-color: #0d6efd;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -1817,13 +1817,13 @@ progress {
 
 .table-primary {
   --bs-table-color: #000;
-  --bs-table-bg: #f2dfd7;
-  --bs-table-border-color: #dac9c2;
-  --bs-table-striped-bg: #e6d4cc;
+  --bs-table-bg: #198754;
+  --bs-table-border-color: #28a745;
+  --bs-table-striped-bg: #c7e7c2; /* Lighter green */
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dac9c2;
+  --bs-table-active-bg: #b3dbb5; /* Lighter green */
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e0cec7;
+  --bs-table-hover-bg: #bce1b8; /* Lighter green */
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -1873,13 +1873,13 @@ progress {
 
 .table-warning {
   --bs-table-color: #000;
-  --bs-table-bg: #fff3cd;
-  --bs-table-border-color: #e6dbb9;
-  --bs-table-striped-bg: #f2e7c3;
+  --bs-table-bg: #c7e7c2; /* Lighter green */
+  --bs-table-border-color: #b3dbb5; /* Lighter green */
+  --bs-table-striped-bg: #bde2ba; /* Lighter green */
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #e6dbb9;
+  --bs-table-active-bg: #b3dbb5; /* Lighter green */
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #ece1be;
+  --bs-table-hover-bg: #b8deb0; /* Lighter green */
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -1887,13 +1887,13 @@ progress {
 
 .table-danger {
   --bs-table-color: #000;
-  --bs-table-bg: #f8d7da;
-  --bs-table-border-color: #dfc2c4;
-  --bs-table-striped-bg: #eccccf;
+  --bs-table-bg: #c7e7c2; /* Lighter green */
+  --bs-table-border-color: #b3dbb5; /* Lighter green */
+  --bs-table-striped-bg: #bde2ba; /* Lighter green */
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #dfc2c4;
+  --bs-table-active-bg: #b3dbb5; /* Lighter green */
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #e5c7ca;
+  --bs-table-hover-bg: #b8deb0; /* Lighter green */
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -1926,6 +1926,7 @@ progress {
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
 }
+
 
 .table-responsive {
   overflow-x: auto;
